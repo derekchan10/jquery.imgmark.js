@@ -7,8 +7,8 @@
     .img-box { width: 665px; height: 236px; text-align: center; }
     .img-box .large-img-box { width: 420px; max-height: 100%; float: left; }
     .img-box img { max-width: 100%; max-height: 100%; }
-    .spec-list { float: right; line-height: 25px; width: 145px; text-align: left; }
-    .spec-list a { text-decoration: none; white-space: nowrap; color: #000; }
+    .example-list { float: right; line-height: 25px; width: 145px; text-align: left; }
+    .example-list a { text-decoration: none; white-space: nowrap; color: #000; }
 </style>
 </head>
 <body>
@@ -16,7 +16,7 @@
         <div class="large-img-box">
             <img src="./image/example.jpg"/>
         </div>
-        <ul class="spec-list">
+        <ul class="example-list">
             <li><a href="javascript:;">標注1</a></li>
             <li><a href="javascript:;">標注2</a></li>
             <li><a href="javascript:;">標注3</a></li>
@@ -28,6 +28,6 @@
 <script type="text/javascript" src="./jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="./jquery.imgmark.js"></script>
 <script type="text/javascript">
-    $('.spec-list li').imgmark({'container' : $('.img-box')});
+    $('.example-list li').imgmark({'container' : $('.img-box')});
 </script>
 </html>
